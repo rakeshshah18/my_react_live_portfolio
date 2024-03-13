@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## See my portfolio on
+### https://rakeshshah18.github.io/my_react_live_portfolio/
+
 In the project directory, you can run:
 
 ### `npm start`

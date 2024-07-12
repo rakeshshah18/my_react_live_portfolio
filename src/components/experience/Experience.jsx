@@ -47,13 +47,6 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div> 
-                <h4>Flutter</h4>
-                <small className='text-light'>Intermidiate</small>
-                </div>
-              </article>
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon' />
-                <div> 
                 <h4>React Js</h4>
                 <small className='text-light'>Intermidiate</small>
                 </div>
@@ -68,7 +61,7 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div> 
-                <h4>Java</h4>
+                <h4>Android Studio</h4>
                 <small className='text-light'>Intermidiate</small>
                 </div>
               </article>
@@ -106,23 +99,15 @@ const Experience = () => {
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
-                <h4>Bootstrap</h4>
-                <small className='text-light'>Experienced</small>
-                </div>
-              </article>
-
-              <article className='experience__details'>
-                <BsPatchCheckFill className='experience__details-icon' />
-                <div>
-                <h4>Flutter</h4>
+                <h4>NodeJS</h4>
                 <small className='text-light'>Intermidiate</small>
                 </div>
               </article>
               <article className='experience__details'>
                 <BsPatchCheckFill className='experience__details-icon' />
                 <div>
-                <h4>Java</h4>
-                <small className='text-light'>Basic</small>
+                <h4>Django</h4>
+                <small className='text-light'>Intermidiate</small>
                 </div>
               </article>
               <article className='experience__details'>

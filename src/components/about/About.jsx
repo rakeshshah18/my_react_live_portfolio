@@ -27,25 +27,29 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>5+ worldwide</small>
+              <small>1 worldwide</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>10+ Completed</small>
+              <small>3+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
-            consectetur fugiat, cumque dicta sed magnam accusantium et numquam
-            quae odio optio rem pariatur mollitia velit nostrum sint eius nisi
-            laborum.
+            I am an experienced web developer with a year of internship
+            experience and strong skills in Python, Django, JavaScript,
+            ReactJS, and NodeJS. I excel in developing dynamic web
+            applications, including e-commerce website and portfolios, and
+            have successfully completed these projects. Proficient in team
+            collaboration, problem-solving, and troubleshooting, I am
+            seeking for opportunities to further enhance my skills and
+            contribute to innovative projects.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
       </div>
-    </section> 
+    </section>
   );
 };
 

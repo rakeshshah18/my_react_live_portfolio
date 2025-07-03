@@ -69,7 +69,7 @@ const Services = () => {
 
             <li>
               <BiCheck className="servise__list-icon" />
-              <p>APIs Development</p>
+              <p>REST APIs Development</p>
             </li>
 
             <li>

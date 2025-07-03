@@ -27,24 +27,24 @@ const data = [
 
   {
     id: 3,
-    image:IMG3,
-    title:'CM Placement Services',
+    image: IMG3,
+    title: 'CM Placement Services',
     github: 'https://github.com/masterBranchDevs/CM_PS/tree/main/frontend',
-    demo:'https://cm-placement-services.vercel.app/'
+    demo: 'https://cm-placement-services.vercel.app/'
   },
   {
     id: 4,
-    image:IMG4,
-    title:'Excel Data View',
+    image: IMG4,
+    title: 'Excel Data View',
     github: 'https://github.com/rakeshshah18/excel-view-react-app',
-    demo:'https://excel-view-zeta.vercel.app/'
+    demo: 'https://excel-view-zeta.vercel.app/'
   },
   {
     id: 5,
-    image:IMG5,
-    title:'Ambica Fashion',
+    image: IMG5,
+    title: 'Ambica Fashion',
     github: 'https://github.com/rakeshshah18/ambicafashion',
-    demo:'http://ambicafashion.unaux.com/index.php'
+    demo: 'http://ambicafashion.unaux.com/index.php'
   }
 ]
 
@@ -66,13 +66,14 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   {id === 2 ? (
-                    <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                    <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
                   ) : (
                     <>
-                      <a href={github} className='btn' target='_blank'>See On Github</a>
-                      <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                      <a href={github} className='btn' target='_blank' rel='noreferrer'>See On Github</a>
+                      <a href={demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a>
                     </>
                   )}
+
                 </div>
               </article>
             );

@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 
 
 const data = [
@@ -26,9 +27,23 @@ const data = [
   {
     id: 3,
     image:IMG3,
-    title:'Lorem Ipsum',
-    github: '#',
-    demo:'#'
+    title:'CM Placement Services',
+    github: 'https://github.com/masterBranchDevs/CM_PS/tree/main/frontend',
+    demo:'https://cm-placement-services.vercel.app/'
+  },
+  {
+    id: 4,
+    image:IMG4,
+    title:'Excel Data View',
+    github: 'https://github.com/rakeshshah18/excel-view-react-app',
+    demo:'https://excel-view-zeta.vercel.app/'
+  },
+  {
+    id: 5,
+    image:IMG5,
+    title:'Ambica Fashion',
+    github: 'https://github.com/rakeshshah18/ambicafashion',
+    demo:'http://ambicafashion.unaux.com/index.php'
   }
 ]
 

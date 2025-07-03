@@ -2,9 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio2.png'
-import IMG3 from '../../assets/portfolio3.png'
-import IMG4 from '../../assets/portfolio4.png'
-import IMG6 from '../../assets/af.png'
+import IMG3 from '../../assets/portfolio3.jpg'
 
 
 const data = [
@@ -27,24 +25,10 @@ const data = [
 
   {
     id: 3,
-    image: IMG3,
-    title: 'CM Placement Services',
-    github: 'https://github.com/LMS-Valsad/CM_PS',
-    demo: 'https://cm-placement-services.vercel.app/'
-  },
-  {
-    id: 4,
-    image: IMG6,
-    title: 'Ambica Fashion',
-    github: 'https://github.com/rakeshshah18/ambicafashion',
-    demo: 'http://ambicafashion.unaux.com/index.php'
-  },
-  {
-    id: 5,
-    image: IMG4,
-    title: 'Excel Data View',
-    github: 'https://github.com/rakeshshah18/excel-view-react-app',
-    demo: 'https://excel-view-zeta.vercel.app/'
+    image:IMG3,
+    title:'Lorem Ipsum',
+    github: '#',
+    demo:'#'
   }
 ]
 
